@@ -113,7 +113,7 @@ running = True
 # all the events are there in the pygame.event
 # giving the input through our keyboard is also an event
 # closeing of our game window or any window are also an event
-#  whenever we press some key on oye keyboard it is an keystrok event.
+#  whenever we press some key on our keyboard it is an keystrok event.
 while running:
     # r , g , b
     screen.fill((0, 0, 20))
@@ -193,4 +193,5 @@ while running:
     player(playerX, playerY)
     show_score()
     pygame.display.update()
+
 
