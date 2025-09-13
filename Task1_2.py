@@ -1,5 +1,5 @@
 # Q:  why the speed of the enemy and player are too slow when we are inserting an backgrond image
-# ans : for every iteration our background image is reloading but that background image is heavy that is our 
+# ans : for every iteration our background image is reloading but that background image is heavy that is why our 
 # while become slow and that will make our player and enemy too slow
 
 import pygame
@@ -193,5 +193,6 @@ while running:
     player(playerX, playerY)
     show_score()
     pygame.display.update()
+
 
 
